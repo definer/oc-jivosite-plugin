@@ -30,7 +30,9 @@ You can also add the component to the file manually and/or override ```jivosite_
 
     	{% component 'jivoSite' %}
 	</head>
-	<body>        
+	<body>
+
+ 		<!-- Header -->
  		<header>
  			<h1>Header</h1>
  			<hr />
@@ -53,6 +55,7 @@ You can also add the component to the file manually and/or override ```jivosite_
         ]|theme }}"></script>
         {% framework extras %}
         {% scripts %}
+        
 	</body>
 	</html>
 	
