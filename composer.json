@@ -1,0 +1,16 @@
+{
+    "name": "definer/oc-jivosite-plugin",
+    "type": "october-plugin",
+    "description": "Jivosite plugin for October CMS.",
+    "keywords": ["october", "cms", "jivosite"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Definer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "composer/installers": "~1.0"
+    }
+}

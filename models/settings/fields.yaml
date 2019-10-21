@@ -1,0 +1,6 @@
+fields:
+    jivosite_id:
+        label: definer.jivosite::lang.settings.jivosite_id.label
+        type: text
+        commentAbove: definer.jivosite::lang.settings.jivosite_id.commentAbove
+        description: definer.jivosite::lang.settings.jivosite_id.description
