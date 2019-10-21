@@ -31,7 +31,7 @@ class Plugin extends PluginBase
     public function registerComponents(): array
     {
         return [
-            'Definer\Jivosite\Components\Jivosite' => 'Jivosite'
+            'Definer\Jivosite\Components\Jivosite' => 'jivoSite'
         ];
     }
 
