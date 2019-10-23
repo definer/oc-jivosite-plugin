@@ -13,7 +13,7 @@ class Jivosite extends ComponentBase
     /**
      * @return array
      */
-    public function componentDetails(): array
+    public function componentDetails() : array
     {
         return [
             'name' => 'definer.jivosite::lang.components.jivosite.name',
@@ -24,7 +24,7 @@ class Jivosite extends ComponentBase
     /**
      * @return array
      */
-    public function defineProperties(): array
+    public function defineProperties() : array
     {
         return [
             'jivosite_id' => [
@@ -39,7 +39,7 @@ class Jivosite extends ComponentBase
     /**
      * @return string
      */
-    public function jivositeId(): string
+    public function jivositeId()
     {
         return $this->property('jivosite_id') ?: Settings::get('jivosite_id');
     }
